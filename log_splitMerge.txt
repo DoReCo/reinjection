@@ -1,0 +1,283 @@
+crdo-NRU_F4_10_AGRICULTURAL_ACTIVITIES
+TGD found.	wdAlign: 37.6883s
+	crdo-NRU_F4_10_AGRICULTURAL_ACTIVITIES_Algn, S-0
+	SPLIT: (21.08,21.61); kʰɤʂɯkv̩ze; txt: kʰɤʂɯ, kʰɤʂɯ; o_txt: kʰ7s` M; s_txt: k ʰ 7 s` M ; tph: 21.469, ch: kv̩ze; split
+	SPLIT: (166.30,166.65); gɤbiʈʂʰɯqo; txt: gɤbi, gɤbi; o_txt: g 7b i; s_txt: g 7 b i ; tph: 166.483, ch: ʈʂʰɯqo; split
+	SPLIT: (232.57,233.32); leɕjoɕikʰɯɲi; txt: leɕjoɕ, leɕjoɕ; o_txt: l eɕj oɕ; s_txt: l e ɕ j o ɕ ; tph: 233.043, ch: ikʰɯɲi; split
+	SPLIT: (429.10,429.70); jɤkeʈʂʰɯdʑo; txt: jɤke, jɤke; o_txt: j 7ke; s_txt: j 7 k e ; tph: 429.583, ch: ʈʂʰɯdʑo; split
+	SPLIT: (454.14,454.37); njɤɳɯ; txt: njɤ, njɤ; o_txt: nj 7; s_txt: n j 7 ; tph: 454.229, ch: ɳɯ; split
+	MERGE_1: (476.71s,476.93s); 'ɖɯkʰwɤ'; score: {left: -0.2727,right: -0.1579,left-merge: -0.5000,right-merge: 0.4737,}}; right_content: ɖɯkʰwɤɖɯkʰwɤlɑ
+	MERGE_1: (476.32s,476.42s); 'ʈʂʰɯ'; score: {left: -1000.0000,right: -0.2727,left-merge: -10000.0000,right-merge: 0.4545,}}; right_content: ʈʂʰɯɻæɳɯ
+	MERGE_1: (470.93s,471.04s); 'ʈʂʰɯ'; score: {left: 0.3333,right: -0.5000,left-merge: 0.0000,right-merge: 0.5000,}}; right_content: ʈʂʰɯɻæ
+	MERGE_1: (452.51s,452.65s); 'dʑo'; score: {left: -1000.0000,right: -0.4286,left-merge: -10000.0000,right-merge: -0.2500,}}; right_content: dʑomɤ
+	MERGE_1: (452.32s,452.51s); 'mɤ'; score: {left: 0.3333,right: -0.2500,left-merge: 0.0000,right-merge: 0.2500,}}; right_content: mɤdʑomɤ
+	MERGE_1: (451.90s,452.07s); 'lɑ'; score: {left: -0.3333,right: 0.3333,left-merge: -0.1111,right-merge: -0.2000,}}; left_content: kwɤtɕɯlɑ
+	MERGE_1: (451.23s,451.63s); 'mv̩ʂɯ'; score: {left: 0.6000,right: -0.1111,left-merge: -0.1111,right-merge: 0.4444,}}; right_content: mv̩ʂɯkwɤtɕɯlɑ
+	MERGE_1: (449.95s,450.14s); 'le'; score: {left: -1000.0000,right: 0.0000,left-merge: -10000.0000,right-merge: 0.4000,}}; right_content: leʂɯdʑo
+	MERGE_1: (439.69s,439.88s); 'njɤ'; score: {left: 0.3333,right: -0.0909,left-merge: 0.0000,right-merge: 0.4545,}}; right_content: njɤɻædʑo
+	MERGE_1: (400.11s,400.43s); 'ɖɯqolv̩'; score: {left: -1000.0000,right: -0.3000,left-merge: -10000.0000,right-merge: 0.4000,}}; right_content: ɖɯqolv̩ɖɯqolv̩
+	MERGE_1: (388.46s,388.73s); 'əmi'; score: {left: 0.4000,right: -0.2727,left-merge: 0.1667,right-merge: 0.2727,}}; right_content: əmiɻæɳɯ
+	MERGE_1: (383.76s,383.83s); 'hĩ'; score: {left: -0.2857,right: -1000.0000,left-merge: 0.1429,right-merge: -10000.0000,}}; left_content: leʈʂɯhĩ
+	MERGE_1: (362.75s,363.03s); 'ʈʂʰɯhwɤ'; score: {left: 0.3333,right: -0.2941,left-merge: -0.2000,right-merge: 0.5294,}}; right_content: ʈʂʰɯhwɤhwɤhĩ
+	MERGE_1: (302.36s,302.64s); 'tsɯ'; score: {left: -0.2500,right: -1000.0000,left-merge: 0.5000,right-merge: -10000.0000,}}; left_content: qwætsɯ
+	MERGE_1: (285.28s,285.38s); 'hĩ'; score: {left: -1000.0000,right: -0.2727,left-merge: -10000.0000,right-merge: 0.2727,}}; right_content: hĩɻæni
+	MERGE_1: (264.84s,265.11s); 'ʈʂʰɯɖɯ'; score: {left: 0.5000,right: 0.0000,left-merge: -0.0769,right-merge: 0.5000,}}; right_content: ʈʂʰɯɖɯɖɯgv̩hĩʈʂʰɯ
+	MERGE_1: (195.56s,195.89s); 'leʐwæ'; score: {left: 0.0000,right: -0.2857,left-merge: -0.4286,right-merge: 0.4286,}}; right_content: leʐwæʐwæse
+	MERGE_1: (193.64s,194.05s); 'ʐwæ'; score: {left: -0.0909,right: -1000.0000,left-merge: 0.4545,right-merge: -10000.0000,}}; left_content: leʐwæʐwæ
+	MERGE_1: (185.83s,186.17s); 'letsɑ'; score: {left: 0.2000,right: -0.2857,left-merge: -0.2500,right-merge: 0.4286,}}; right_content: letsɑtsɑse
+	MERGE_1: (183.67s,184.32s); 'tsɑ'; score: {left: -0.0909,right: -1000.0000,left-merge: 0.4545,right-merge: -10000.0000,}}; left_content: letsɑtsɑ
+	MERGE_1: (165.80s,166.02s); 'pɤ'; score: {left: -0.1111,right: -1000.0000,left-merge: 0.3333,right-merge: -10000.0000,}}; left_content: lepɤpɤ
+	MERGE_1: (123.19s,123.34s); 'ʐwæ'; score: {left: -0.0909,right: 0.3333,left-merge: 0.4545,right-merge: 0.0667,}}; left_content: leʐwæʐwæ
+	MERGE_1: (114.06s,114.26s); 'ʐwæ'; score: {left: -1000.0000,right: 0.0667,left-merge: -10000.0000,right-merge: 0.4667,}}; right_content: ʐwæʐwætsoɲi
+	MERGE_1: (108.06s,108.28s); 'ʐwæ'; score: {left: -0.0909,right: -1000.0000,left-merge: 0.4545,right-merge: -10000.0000,}}; left_content: leʐwæʐwæ
+	MERGE_1: (82.52s,83.06s); 'tsɑ'; score: {left: -0.0909,right: -1000.0000,left-merge: 0.4545,right-merge: -10000.0000,}}; left_content: letsɑtsɑ
+crdo-NRU_F4_35_DOG_WITH_EGG
+TGD found.	wdAlign: 28.1672s
+	crdo-NRU_F4_35_DOG_WITH_EGG_Algn, S-0
+	SPLIT: (310.59,311.41); dʑoɲikv̩tsɯ; txt: ikv̩, ikv̩; o_txt: ikv=; s_txt: i k v= ; tph: 310.999, ch: ikv̩tsɯ; split
+	SPLIT: (315.48,315.78); hĩmo; txt: hĩ, hĩ; o_txt: h ĩ; s_txt: h i ̃ ; tph: 315.72, ch: mo; split
+	MERGE_1: (323.28s,323.56s); 'zɯdʑo'; score: {left: -0.1579,right: 0.3333,left-merge: 0.3684,right-merge: -0.2727,}}; left_content: əsɯkv̩zɯzɯdʑo
+	MERGE_1: (320.94s,321.28s); 'zɯdʑo'; score: {left: -0.1111,right: 0.3333,left-merge: 0.4444,right-merge: -0.0588,}}; left_content: kʰv̩mizɯzɯdʑo
+	MERGE_1: (319.21s,319.59s); 'ɳɯ'; score: {left: 0.2000,right: -1000.0000,left-merge: 0.4667,right-merge: -10000.0000,}}; left_content: kʰv̩mihĩɳɯ
+	MERGE_1: (313.31s,313.57s); 'əpɤ'; score: {left: -1000.0000,right: -0.2727,left-merge: -10000.0000,right-merge: 0.2727,}}; right_content: əpɤɖɯɳɯ
+	MERGE_1: (302.78s,302.92s); 'zɯ'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (297.65s,297.94s); 'ətso'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: ətsoətso
+	MERGE_1: (293.16s,293.34s); 'zɯ'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (286.85s,287.02s); 'zɯ'; score: {left: 0.3333,right: -0.3333,left-merge: 0.2000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (282.39s,282.54s); 'zɯ'; score: {left: 0.5714,right: -0.3333,left-merge: 0.4667,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (280.42s,280.72s); 'əʑi'; score: {left: -1000.0000,right: -0.2727,left-merge: -10000.0000,right-merge: 0.2727,}}; right_content: əʑiɻæɳɯ
+	MERGE_1: (279.22s,279.36s); 'ʐwɤ'; score: {left: -1000.0000,right: 0.0667,left-merge: -10000.0000,right-merge: 0.4667,}}; right_content: ʐwɤʐwɤkv̩mæ
+	MERGE_1: (262.57s,262.69s); 'dʑo'; score: {left: 0.1429,right: 0.3333,left-merge: 0.5714,right-merge: -0.3333,}}; left_content: tʰv̩kʰv̩dʑo
+	MERGE_1: (231.72s,231.91s); 'zɯ'; score: {left: 0.5000,right: 0.0909,left-merge: 0.2000,right-merge: 0.4545,}}; right_content: zɯzɯʈʂʰɯ
+	MERGE_1: (229.23s,229.34s); 'ʂo'; score: {left: -0.1111,right: 0.4667,left-merge: 0.3333,right-merge: 0.2941,}}; left_content: ʂeʂoʂo
+	MERGE_1: (201.69s,201.91s); 'zɯ'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (191.33s,191.71s); 'leqæ'; score: {left: 0.4545,right: -0.2308,left-merge: 0.1429,right-merge: 0.3846,}}; right_content: leqæqædʑo
+	MERGE_1: (187.57s,187.71s); 'zɯ'; score: {left: 0.2727,right: -0.3333,left-merge: 0.1667,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (176.03s,176.37s); 'leqæ'; score: {left: 0.2000,right: -0.2308,left-merge: -0.1429,right-merge: 0.3846,}}; right_content: leqæqædʑo
+	MERGE_1: (173.49s,173.71s); 'qæ'; score: {left: 0.0909,right: 0.0769,left-merge: 0.0000,right-merge: 0.3846,}}; right_content: qæqæɲitsɯ
+	MERGE_1: (173.04s,173.20s); 'zɯ'; score: {left: -1000.0000,right: 0.0909,left-merge: -10000.0000,right-merge: 0.4545,}}; right_content: zɯzɯʈʂʰɯ
+	MERGE_1: (160.25s,160.43s); 'zɯ'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (152.42s,152.58s); 'zɯ'; score: {left: 0.4545,right: 0.0909,left-merge: 0.3333,right-merge: 0.4545,}}; right_content: zɯzɯʈʂʰɯ
+	MERGE_1: (149.06s,149.37s); 'qæɻ̍'; score: {left: -0.3333,right: 0.3333,left-merge: 0.3333,right-merge: -0.0769,}}; left_content: ɖɯqæqæɻ̍
+	MERGE_1: (146.84s,146.96s); 'mv̩'; score: {left: -1000.0000,right: 0.0588,left-merge: -10000.0000,right-merge: 0.4118,}}; right_content: mv̩dohɯɲitsɯ
+	MERGE_1: (144.50s,144.67s); 'zɯ'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (105.37s,105.57s); 'zɯ'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (97.64s,97.76s); 'hĩ'; score: {left: 0.5000,right: -0.4286,left-merge: 0.3636,right-merge: 0.4286,}}; right_content: hĩɻæ
+	MERGE_1: (94.83s,95.00s); 'qæ'; score: {left: 0.5556,right: 0.2000,left-merge: 0.4000,right-merge: 0.4000,}}; right_content: qæqæɲikv̩tsɯmæ
+	MERGE_1: (47.40s,47.59s); 'zɯ'; score: {left: -1000.0000,right: 0.0909,left-merge: -10000.0000,right-merge: 0.4545,}}; right_content: zɯzɯʈʂʰɯ
+	MERGE_1: (44.33s,44.51s); 'zɯ'; score: {left: -1000.0000,right: -0.3333,left-merge: -10000.0000,right-merge: 0.3333,}}; right_content: zɯzɯ
+	MERGE_1: (26.35s,26.59s); 'qæ'; score: {left: -1000.0000,right: 0.1765,left-merge: -10000.0000,right-merge: 0.4118,}}; right_content: qæqæɲikv̩tsɯ
+crdo-NRU_F4_36_TIGER_WITH_EGG
+TGD found.	wdAlign: 26.0375s
+	crdo-NRU_F4_36_TIGER_WITH_EGG_Algn, S-0
+	SPLIT: (88.19,89.04); <<on>zɯzɯzɯgɯ>; txt: zɯ, zɯ; o_txt: z M; s_txt: z M ; tph: 89.043, ch: on>zɯzɯzɯgɯ>;
+	SPLIT: (162.00,162.43); ʐɯʐɯtsɯ; txt: ʐɯ, ʐɯ; o_txt: z` M; s_txt: z` M ; tph: 162.125, ch: ʐɯtsɯ; split
+	SPLIT: (162.43,163.71); lekobi; txt: leko, leko; o_txt: l ek o; s_txt: l e k o ; tph: 163.63, ch: bi; split
+	MERGE_1: (297.91s,298.09s); 'ʈʂʰæ'; score: {left: -1000.0000,right: -0.2727,left-merge: -10000.0000,right-merge: 0.4545,}}; right_content: ʈʂʰæʈʂʰæ
+	MERGE_1: (288.43s,288.71s); 'ɳv̩'; score: {left: -0.0909,right: 0.2000,left-merge: 0.4545,right-merge: -0.2500,}}; left_content: mɤɳv̩ɳv̩
+	MERGE_1: (218.98s,219.19s); 'ʈʂʰæ'; score: {left: 0.2000,right: -0.2727,left-merge: -0.2500,right-merge: 0.4545,}}; right_content: ʈʂʰæʈʂʰæ
+crdo-NRU_F4_BURIEDALIVE2
+TGD found.	wdAlign: 102.3918s
+	crdo-NRU_F4_BURIEDALIVE2_Algn, S-0
+	SPLIT: (329.37,330.29); leʂæljəzo; txt: leʂæljə, leʂæljə; o_txt: l es` {lj@; s_txt: l e s` { l j @ ; tph: 330.286, ch: zo;
+	SPLIT: (490.45,491.10); qv̩ɻ̍; txt: qv, qv; o_txt: qv; s_txt: q v ; tph: 490.869, ch: ̩ɻ̍; split
+	SPLIT: (539.18,539.69); nifv̩qo; txt: nifv̩, nifv̩; o_txt: n ifv=; s_txt: n i f v= ; tph: 539.531, ch: qo; split
+	SPLIT: (685.00,686.63); qʰwækʰwɤtsɤzemɤze; txt: qʰwækʰwɤ, qʰwækʰwɤ; o_txt: qʰw {kʰw 7; s_txt: q ʰ w { k ʰ w 7 ; tph: 685.598, ch: tsɤzemɤze; split
+	MERGE_1: (397.48s,397.83s); 'ʈʂʰɯ'; score: {left: -0.4000,right: -1000.0000,left-merge: 0.4000,right-merge: -10000.0000,}}; left_content: njɤʈʂʰɯ
+crdo-NRU_F4_BURIEDALIVE3
+TGD found.	wdAlign: 85.6953s
+	crdo-NRU_F4_BURIEDALIVE3_Algn, S-0
+	SPLIT: (132.98,133.95); əmiɖɯv̩ɳɯ; txt: əmi, əmi; o_txt: @m i; s_txt: @ m i ; tph: 133.307, ch: ɖɯv̩ɳɯ; split
+	SPLIT: (307.69,308.24); ɖɯɲibv̩; txt: ɖɯɲib, ɖɯɲib; o_txt: d` MJ ib; s_txt: d` M J i b ; tph: 308.128, ch: v̩; split
+	SPLIT: (522.21,522.60); ʈʂʰɯneʝi; txt: ʈʂʰɯ, ʈʂʰɯ; o_txt: ʈʂʰɯ; s_txt: ʈ ʂ ʰ ɯ ; tph: 522.438, ch: neʝi; split
+	SPLIT: (636.72,637.02); <<fs>æ̃ʁv̩>; txt: æ̃ʁ, æ̃ʁ; o_txt: {~ʁ; s_txt: {~ ʁ ; tph: 637.023, ch: s>æ̃ʁv̩>;
+	SPLIT: (680.37,681.29); leʂɯʂɯhɑ̃; txt: leʂɯ, leʂɯ; o_txt: l es` M; s_txt: l e s` M ; tph: 680.817, ch: ʂɯhɑ̃; split
+	MERGE_1: (524.38s,524.50s); 'mv̩'; score: {left: 0.4286,right: 0.2000,left-merge: 0.1111,right-merge: 0.5000,}}; right_content: mv̩ʈwæʈwæʈwæʈwæ
+	MERGE_1: (307.49s,307.69s); 'ki'; score: {left: -1000.0000,right: -0.4118,left-merge: -10000.0000,right-merge: -0.1765,}}; right_content: kiɖɯɲib
+	MERGE_1: (161.87s,162.29s); 'ʈʂʰɯ'; score: {left: -0.3333,right: -1000.0000,left-merge: 0.1111,right-merge: -10000.0000,}}; left_content: əsodʑoʈʂʰɯ
+	MERGE_1: (69.31s,69.45s); 'dʑo'; score: {left: -0.0769,right: 0.5000,left-merge: 0.3846,right-merge: 0.2000,}}; left_content: ʈʂʰɯzɯdʑo
+crdo-NRU_F4_HOUSEBUILDING
+TGD found.	wdAlign: 133.5457s
+	crdo-NRU_F4_HOUSEBUILDING_Algn, S-0
+	SPLIT: (172.75,173.24); letʰɑtsʰɯ; txt: letʰɑ, letʰɑ; o_txt: l etʰA; s_txt: l e t ʰ A ; tph: 173.202, ch: tsʰɯ; split
+	SPLIT: (519.71,520.11); giɲi; txt: gi, gi; o_txt: g i; s_txt: g i ; tph: 519.915, ch: ɲi; split
+	SPLIT: (767.14,767.55); dzɯhĩʈʂʰɯ; txt: dz, dz; o_txt: dz; s_txt: d z ; tph: 767.344, ch: ɯhĩʈʂʰɯ; split
+	SPLIT: (1053.23,1053.45); ʈʂʰɯqo; txt: ʈʂʰɯ, ʈʂʰɯ; o_txt: ʈʂʰɯ; s_txt: ʈ ʂ ʰ ɯ ; tph: 1053.449, ch: qo;
+	SPLIT: (1099.11,1099.72); mv̩ʈʰæ; txt: mv̩ʈ, mv̩ʈ; o_txt: mv=ʈ; s_txt: m v= ʈ ; tph: 1099.493, ch: ʰæ; split
+	MERGE_1: (1359.79s,1360.46s); 'siʂoʂoɲi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0588,right-merge: -10000.0000,}}; left_content: ʈʰææ̃siʂoʂoɲi
+	MERGE_1: (1356.92s,1357.99s); 'siʂoʂoɲi'; score: {left: -0.6000,right: -1000.0000,left-merge: -0.3846,right-merge: -10000.0000,}}; left_content: ɖɯʈʂɤʈʂɤkizesesiʂoʂoɲi
+	MERGE_1: (1353.53s,1354.14s); 'tʰipʰæɲimæ'; score: {left: -0.7333,right: -1000.0000,left-merge: -0.0909,right-merge: -10000.0000,}}; left_content: ʈʂʰɯneʝitʰipʰæɲimæ
+	MERGE_1: (1352.30s,1352.53s); 'pʰæ'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: ʈʂʰɯqopʰæ
+	MERGE_1: (1350.70s,1350.96s); 'pʰæ'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: ʈʂʰɯqopʰæ
+	MERGE_1: (1349.46s,1349.71s); 'pʰæ'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: ʈʂʰɯqopʰæ
+	MERGE_1: (1348.21s,1348.45s); 'di'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5556,right-merge: -10000.0000,}}; left_content: ʈʂʰɯqodi
+	MERGE_1: (1346.97s,1347.28s); 'tʰipʰæ'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.1429,right-merge: -10000.0000,}}; left_content: ʈʂʰɯɭɯtʰipʰæ
+	MERGE_1: (1345.92s,1346.26s); 'tʰipʰæ'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ɖɯɭɯtʰipʰæ
+	MERGE_1: (1344.32s,1344.64s); 'tʰipʰæ'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.2500,right-merge: -10000.0000,}}; left_content: ʈʂʰɯneʝitʰipʰæ
+	MERGE_1: (1342.91s,1343.61s); 'tʰipʰæpʰæɲizemæ'; score: {left: -0.8095,right: -1000.0000,left-merge: 0.0345,right-merge: -10000.0000,}}; left_content: ʈʂʰɯneʝitʰipʰæpʰæɲizemæ
+	MERGE_1: (1341.30s,1341.85s); 'soɭɯ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2000,right-merge: -10000.0000,}}; left_content: mɤɲisoɭɯ
+	MERGE_1: (1338.51s,1338.89s); 'tʰidi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2308,right-merge: -10000.0000,}}; left_content: dv̩pʰætʰidi
+	MERGE_1: (1336.23s,1336.63s); 'tʰidi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2308,right-merge: -10000.0000,}}; left_content: mv̩pʰætʰidi
+	MERGE_1: (1335.24s,1335.66s); 'tʰidi'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.1667,right-merge: -10000.0000,}}; left_content: gæpʰætʰidi
+	MERGE_1: (1333.65s,1333.93s); 'ɲi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: əmɤv̩ɲi
+	MERGE_1: (1332.98s,1333.11s); 'wɤ'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.6923,right-merge: -10000.0000,}}; left_content: notɑkɤdʑowɤ
+	MERGE_1: (1331.31s,1331.87s); 'mɤdʑɤɲi'; score: {left: -0.8000,right: -1000.0000,left-merge: 0.1667,right-merge: -10000.0000,}}; left_content: wɤmɤdʑɤɲi
+	MERGE_1: (1325.84s,1326.30s); 'mɤdʑoɲi'; score: {left: -0.2000,right: -1000.0000,left-merge: -0.1250,right-merge: -10000.0000,}}; left_content: mɤdihĩmɤdʑoɲi
+	MERGE_1: (1322.09s,1322.32s); 'mv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.6000,right-merge: -10000.0000,}}; left_content: letsʰɯɲitsɯmv̩
+	MERGE_1: (1320.26s,1320.77s); 'əʝiʂɯʝi'; score: {left: -0.5714,right: -1000.0000,left-merge: -0.4167,right-merge: -10000.0000,}}; left_content: gv̩hĩʈʂʰɯdʑoəʝiʂɯʝi
+	MERGE_1: (1317.89s,1318.16s); 'əgi'; score: {left: -0.8182,right: -1000.0000,left-merge: -0.6250,right-merge: -10000.0000,}}; left_content: tɑpiʈʂʰɯdʑoəgi
+	MERGE_1: (1314.86s,1315.69s); 'ʑimiʈʂʰɯdʑo'; score: {left: -0.8667,right: -1000.0000,left-merge: 0.2941,right-merge: -10000.0000,}}; left_content: zoʑimiʈʂʰɯdʑo
+	MERGE_1: (1311.40s,1311.87s); 'leʈʰɯ'; score: {left: -0.7143,right: -1000.0000,left-merge: -0.0909,right-merge: -10000.0000,}}; left_content: pʰv̩leʈʰɯ
+	MERGE_1: (1309.26s,1309.50s); 'tʰi'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.5714,right-merge: -10000.0000,}}; left_content: ʈʂʰɯsɯkv̩tʰi
+	MERGE_1: (1305.51s,1305.91s); 'tʰitɕɤ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0769,right-merge: -10000.0000,}}; left_content: ɖɯv̩tʰitɕɤ
+	MERGE_1: (1303.64s,1304.08s); 'tʰitɕɤ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0769,right-merge: -10000.0000,}}; left_content: ɖɯv̩tʰitɕɤ
+	MERGE_1: (1301.97s,1302.37s); 'ɖɯpʰæ'; score: {left: -0.5000,right: -1000.0000,left-merge: -0.2857,right-merge: -10000.0000,}}; left_content: boʈʂʰæɖɯpʰæ
+	MERGE_1: (1299.56s,1299.94s); 'mɤkv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1667,right-merge: -10000.0000,}}; left_content: dzɯʁomɤkv̩
+	MERGE_1: (1293.38s,1293.78s); 'tʰv̩ɲi'; score: {left: -0.7500,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: nɑmitʰv̩ɲi
+	MERGE_1: (1290.30s,1290.70s); 'əʝiʂɯʝi'; score: {left: -0.3846,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: õʈʂʰɯneʝiəʝiʂɯʝi
+	MERGE_1: (1288.45s,1288.82s); 'tɑɳɯ'; score: {left: -0.7500,right: -1000.0000,left-merge: -0.3846,right-merge: -10000.0000,}}; left_content: ʈʂʰɯtɕotɑɳɯ
+	MERGE_1: (1284.46s,1284.74s); 'ɲimæ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: õʈʂʰɯneʝiɲimæ
+	MERGE_1: (1283.04s,1283.62s); 'lehwæ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0909,right-merge: -10000.0000,}}; left_content: giɳɯlehwæ
+	MERGE_1: (1279.59s,1279.89s); 'dɑ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: ɖɯɭɯdɑ
+	MERGE_1: (1277.24s,1277.76s); 'mɤdʑoɲi'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: leqæmɤdʑoɲi
+	MERGE_1: (1272.79s,1273.36s); 'ʈʂʰɯneʝi'; score: {left: -0.8182,right: -1000.0000,left-merge: -0.0588,right-merge: -10000.0000,}}; left_content: pohɯzoʈʂʰɯneʝi
+	MERGE_1: (1270.39s,1270.88s); 'pohɯ'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ʈɤpohɯ
+	MERGE_1: (1264.04s,1264.47s); 'qæɲize'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2308,right-merge: -10000.0000,}}; left_content: ətsoqæɲize
+	MERGE_1: (1262.95s,1263.28s); 'hĩbv̩'; score: {left: -0.7333,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: kʰv̩mæʈʂʰɯɳɯhĩbv̩
+	MERGE_1: (1261.73s,1262.00s); 'mɤtsɯ'; score: {left: -0.1429,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: tsɯmɤtsɯ
+	MERGE_1: (1258.21s,1258.72s); 'əʝiʂɯʝi'; score: {left: -0.7333,right: -1000.0000,left-merge: -0.4615,right-merge: -10000.0000,}}; left_content: tʰofv̩ʈʂʰɯɳɯdʑoəʝiʂɯʝi
+	MERGE_1: (1254.70s,1255.15s); 'leqæpi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0769,right-merge: -10000.0000,}}; left_content: ɖɯtɑleqæpi
+	MERGE_1: (1251.92s,1252.16s); 'tʰi'; score: {left: -0.7143,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: mɤqʰætʰi
+	MERGE_1: (1249.81s,1250.30s); 'mɤdʑɤhĩ'; score: {left: -0.8182,right: -1000.0000,left-merge: -0.0588,right-merge: -10000.0000,}}; left_content: ɖʐɯkʰɤmɤdʑɤhĩ
+	MERGE_1: (1247.83s,1248.38s); 'əʝitsʰiʝi'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0588,right-merge: -10000.0000,}}; left_content: mɤzoəʝitsʰiʝi
+	MERGE_1: (1243.48s,1244.64s); 'ledʑɤhoɲize'; score: {left: -0.8750,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ɖʐɯkʰɤledʑɤhoɲize
+	MERGE_1: (1242.00s,1242.40s); 'əsi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: ɖwæmɤzoəsi
+	MERGE_1: (1233.67s,1234.96s); 'ɖɯɭɯdʑo'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.1250,right-merge: -10000.0000,}}; left_content: dʑɤhĩɖɯɭɯdʑo
+	MERGE_1: (1229.73s,1229.98s); 'mɤ'; score: {left: -0.6000,right: -1000.0000,left-merge: -0.4286,right-merge: -10000.0000,}}; left_content: ljɤmɤ
+	MERGE_1: (1225.97s,1226.21s); 'tʰv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: dʑɯkʰitʰv̩
+	MERGE_1: (1224.40s,1224.81s); 'tɕiɲimæ'; score: {left: -0.8000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: leqætɕiɲimæ
+	MERGE_1: (1219.91s,1220.50s); 'ʈʂʰɯdʑo'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.1667,right-merge: -10000.0000,}}; left_content: əmiʈʂʰɯdʑo
+	MERGE_1: (1218.26s,1219.06s); 'dʑopʰædize'; score: {left: -0.7143,right: -1000.0000,left-merge: 0.1111,right-merge: -10000.0000,}}; left_content: ɖɯpidʑopʰædize
+	MERGE_1: (1214.72s,1215.49s); 'ʈʂʰɯtɕiɳɯdʑo'; score: {left: -0.8750,right: -1000.0000,left-merge: 0.0909,right-merge: -10000.0000,}}; left_content: tʰofv̩ʈʂʰɯtɕiɳɯdʑo
+	MERGE_1: (1213.50s,1213.76s); 'tʰi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2500,right-merge: -10000.0000,}}; left_content: dʑotʰi
+	MERGE_1: (1209.31s,1209.81s); 'hĩʈʂʰɯ'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0769,right-merge: -10000.0000,}}; left_content: zonohĩʈʂʰɯ
+	MERGE_1: (1204.88s,1205.22s); 'əgi'; score: {left: -0.8182,right: -1000.0000,left-merge: -0.6250,right-merge: -10000.0000,}}; left_content: lɑlɑhĩʈʂʰɯəgi
+	MERGE_1: (1200.75s,1200.97s); 'mv̩'; score: {left: -0.7333,right: -1000.0000,left-merge: -0.6842,right-merge: -10000.0000,}}; left_content: ɖɯkʰv̩dʑokv̩tsɯmv̩
+	MERGE_1: (1198.20s,1198.45s); 'tʰi'; score: {left: -0.7143,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: əʝiʂɯʝitʰi
+	MERGE_1: (1195.23s,1195.94s); 'leʈɤzo'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1429,right-merge: -10000.0000,}}; left_content: ɖɯtɑleʈɤzo
+	MERGE_1: (1190.87s,1191.48s); 'tsekʰɯ'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.0769,right-merge: -10000.0000,}}; left_content: poɳɯtsekʰɯ
+	MERGE_1: (1189.12s,1189.82s); 'kʰɯzoɲi'; score: {left: -0.8000,right: -1000.0000,left-merge: 0.1667,right-merge: -10000.0000,}}; left_content: nokʰɯzoɲi
+	MERGE_1: (1188.62s,1188.96s); 'ɖɯɭɯqo'; score: {left: -0.7778,right: 0.1667,left-merge: -0.1429,right-merge: -0.2222,}}; left_content: dʑɯmiɖɯɭɯqo
+	MERGE_1: (1185.68s,1186.04s); 'əgi'; score: {left: -0.8000,right: -1000.0000,left-merge: -0.6000,right-merge: -10000.0000,}}; left_content: tʰv̩ɲizemæəgi
+	MERGE_1: (1183.87s,1184.32s); 'leʈɤ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2000,right-merge: -10000.0000,}}; left_content: ɖɯɬileʈɤ
+	MERGE_1: (1182.30s,1182.59s); 'ʈɤ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.4286,right-merge: -10000.0000,}}; left_content: ɖɯɬiʈɤ
+	MERGE_1: (1178.55s,1178.77s); 'tʰi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2500,right-merge: -10000.0000,}}; left_content: dʑotʰi
+	MERGE_1: (1173.29s,1173.67s); 'əʝiʂɯʝi'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: dʑoəʝiʂɯʝi
+	MERGE_1: (1172.00s,1172.21s); 'mv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1429,right-merge: -10000.0000,}}; left_content: dʑimv̩
+	MERGE_1: (1170.49s,1170.89s); 'ʈʂʰæ'; score: {left: -0.7500,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: v̩tsʰɤʈʂʰæ
+	MERGE_1: (1169.25s,1169.75s); 'gv̩bi'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.1111,right-merge: -10000.0000,}}; left_content: hɑgv̩bi
+	MERGE_1: (1167.96s,1168.41s); 'tʰitɕʰo'; score: {left: -0.4000,right: -1000.0000,left-merge: -0.2222,right-merge: -10000.0000,}}; left_content: ʈʂʰɯtɕiqɑtʰitɕʰo
+	MERGE_1: (1166.00s,1166.52s); 'tʰitɕʰo'; score: {left: -0.8000,right: -1000.0000,left-merge: -0.1250,right-merge: -10000.0000,}}; left_content: əpʰv̩qɑtʰitɕʰo
+	MERGE_1: (1164.51s,1165.19s); 'tʰihɑ̃'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1429,right-merge: -10000.0000,}}; left_content: dʑɯʁotʰihɑ̃
+	MERGE_1: (1163.23s,1163.77s); 'əʝiʂɯʝi'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: njɤəʝiʂɯʝi
+	MERGE_1: (1156.36s,1157.11s); 'sidziʈʂʰɯ'; score: {left: -0.7143,right: -1000.0000,left-merge: -0.1818,right-merge: -10000.0000,}}; left_content: ɖɯʝiɖɯʝigɤsidziʈʂʰɯ
+	MERGE_1: (1152.09s,1152.20s); 'bæ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: ʈʂʰɯbæ
+	MERGE_1: (1150.85s,1151.02s); 'dʑokv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0769,right-merge: -10000.0000,}}; left_content: qʰɑjɤdʑokv̩
+	MERGE_1: (1148.00s,1148.26s); 'pizo'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: hwæɖʐæpizo
+	MERGE_1: (1145.04s,1145.38s); 'si'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5556,right-merge: -10000.0000,}}; left_content: ʈʂʰɯqosi
+	MERGE_1: (1143.94s,1144.28s); 'si'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5556,right-merge: -10000.0000,}}; left_content: ʈʂʰɯqosi
+	MERGE_1: (1142.20s,1142.52s); 'gv̩kv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2941,right-merge: -10000.0000,}}; left_content: ʈʂʰɯhwɤlɑgv̩kv̩
+	MERGE_1: (1140.88s,1141.28s); 'ʐɤmiʈʂʰɯ'; score: {left: -0.8182,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: tʰidiʐɤmiʈʂʰɯ
+	MERGE_1: (1138.51s,1139.12s); 'ʐɤmiʈʂʰɯ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1579,right-merge: -10000.0000,}}; left_content: ʂv̩ɖv̩zoʐɤmiʈʂʰɯ
+	MERGE_1: (1134.58s,1135.03s); 'mɤdo'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: limɤdo
+	MERGE_1: (1130.64s,1131.09s); 'ɖwækv̩mæ'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: qʰɑneɖwækv̩mæ
+	MERGE_1: (1117.96s,1118.43s); 'tʰidʑo'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.1429,right-merge: -10000.0000,}}; left_content: õdv̩tʰidʑo
+	MERGE_1: (1116.37s,1116.74s); 'tʰidʑo'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.2000,right-merge: -10000.0000,}}; left_content: lɑtʰidʑo
+	MERGE_1: (1115.47s,1115.88s); 'tʰidʑo'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.2000,right-merge: -10000.0000,}}; left_content: ʐætʰidʑo
+	MERGE_1: (1113.70s,1114.32s); 'dʑokv̩ɲize'; score: {left: -0.6000,right: -1000.0000,left-merge: -0.0909,right-merge: -10000.0000,}}; left_content: ətsomɤɲidʑokv̩ɲize
+	MERGE_1: (1109.27s,1109.58s); 'ɖɯv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.3846,right-merge: -10000.0000,}}; left_content: pɤpɤhĩɖɯv̩
+	MERGE_1: (1108.12s,1108.46s); 'ɖɯv̩'; score: {left: -0.5000,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: gv̩hĩɖɯv̩
+	MERGE_1: (1105.80s,1106.30s); 'gɤbi'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: pɤpɤɳɯgɤbi
+	MERGE_1: (1102.21s,1102.46s); 'dʑo'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: gɤbidʑo
+	MERGE_1: (1099.11s,1099.49s); 'mv̩ʈ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2000,right-merge: -10000.0000,}}; left_content: pimv̩ʈ
+	MERGE_1: (1095.67s,1095.94s); 'gv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: hɑgv̩
+	MERGE_1: (1092.30s,1093.02s); 'lepɤpɤ'; score: {left: -0.8000,right: -1000.0000,left-merge: -0.2500,right-merge: -10000.0000,}}; left_content: poɳɯdʑolepɤpɤ
+	MERGE_1: (1090.36s,1090.57s); 'mv̩'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.6000,right-merge: -10000.0000,}}; left_content: pɤpɤbizokv̩mv̩
+	MERGE_1: (1088.51s,1088.74s); 'mæ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5556,right-merge: -10000.0000,}}; left_content: dʑokv̩mæ
+	MERGE_1: (1087.03s,1087.39s); 'hĩɻæ'; score: {left: -0.8571,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: dʑɯkʰɯdiʈʂʰɯhĩɻæ
+	MERGE_1: (1082.79s,1083.50s); 'əʝiʂɯʝi'; score: {left: -0.5000,right: -1000.0000,left-merge: -0.2632,right-merge: -10000.0000,}}; left_content: miɬiʈʂʰɯəʝiʂɯʝi
+	MERGE_1: (1078.70s,1079.07s); 'əgi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: mɤdʑoəgi
+	MERGE_1: (1076.43s,1077.30s); 'əʝitsʰiʝini'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1200,right-merge: -10000.0000,}}; left_content: dʑomɤkv̩əʝitsʰiʝini
+	MERGE_1: (1073.90s,1074.45s); 'dʑomɤkv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0588,right-merge: -10000.0000,}}; left_content: ʈʰææ̃dʑomɤkv̩
+	MERGE_1: (1071.45s,1073.07s); 'dɑkʰidʑo'; score: {left: -0.6364,right: -1000.0000,left-merge: 0.0667,right-merge: -10000.0000,}}; left_content: qædodɑkʰidʑo
+	MERGE_1: (1069.58s,1069.90s); 'dʑokv̩'; score: {left: -0.7778,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ɖɯʁodʑokv̩
+	MERGE_1: (1068.57s,1068.88s); 'pizo'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2000,right-merge: -10000.0000,}}; left_content: lɑkɤpizo
+	MERGE_1: (1067.44s,1067.95s); 'lepɤpɤ'; score: {left: -0.5556,right: -1000.0000,left-merge: -0.2941,right-merge: -10000.0000,}}; left_content: lɑkɤqoɳɯlepɤpɤ
+	MERGE_1: (1063.48s,1063.88s); 'mɤkv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0909,right-merge: -10000.0000,}}; left_content: dʑomɤkv̩
+	MERGE_1: (1061.36s,1061.81s); 'əʝiʂɯʝi'; score: {left: -0.8182,right: -1000.0000,left-merge: -0.2632,right-merge: -10000.0000,}}; left_content: ɖɯkɤɖɯkɤəʝiʂɯʝi
+	MERGE_1: (1058.12s,1058.73s); 'ɖɯʈʂʰv̩ʈʂʰv̩ɻ̍'; score: {left: -0.8889,right: -1000.0000,left-merge: 0.1667,right-merge: -10000.0000,}}; left_content: ʐɯpoɳɯɖɯʈʂʰv̩ʈʂʰv̩ɻ̍
+	MERGE_1: (1055.97s,1056.38s); 'legɤ'; score: {left: -0.5000,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: lew̃ælegɤ
+	MERGE_1: (1053.45s,1054.10s); 'lew̃ækv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.0588,right-merge: -10000.0000,}}; left_content: ʈʂʰɯqolew̃ækv̩
+	MERGE_1: (1046.83s,1047.15s); 'ʈʂʰɯtɕi'; score: {left: -0.7778,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: mohĩʈʂʰɯtɕi
+	MERGE_1: (1045.11s,1046.03s); 'dɑkʰidʑo'; score: {left: -0.8182,right: -1000.0000,left-merge: 0.0667,right-merge: -10000.0000,}}; left_content: ʑimidɑkʰidʑo
+	MERGE_1: (1043.43s,1043.74s); 'ɲi'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.5556,right-merge: -10000.0000,}}; left_content: ʈʰikv̩ɲi
+	MERGE_1: (1041.68s,1041.95s); 'tʰi'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: leʝitʰi
+	MERGE_1: (1039.73s,1039.99s); 'tʰi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1429,right-merge: -10000.0000,}}; left_content: zotʰi
+	MERGE_1: (1035.93s,1036.13s); 'mv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: dʑoɲitsɯmv̩
+	MERGE_1: (1034.09s,1034.42s); 'pizo'; score: {left: -0.6000,right: -1000.0000,left-merge: -0.4667,right-merge: -10000.0000,}}; left_content: lepojokv̩pizo
+	MERGE_1: (1031.48s,1031.70s); 'dʑɤ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: lɑkʰv̩dʑɤ
+	MERGE_1: (1029.35s,1029.88s); 'ɖɯʁo'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2000,right-merge: -10000.0000,}}; left_content: ʂebiɖɯʁo
+	MERGE_1: (1026.81s,1027.09s); 'tʰi'; score: {left: -0.7500,right: -1000.0000,left-merge: -0.7143,right-merge: -10000.0000,}}; left_content: lɑkʰv̩hĩʈʂʰɯdʑotʰi
+	MERGE_1: (1024.85s,1025.23s); 'ɲikv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.1111,right-merge: -10000.0000,}}; left_content: hɑɲikv̩
+	MERGE_1: (1021.21s,1021.52s); 'ʈʰææ̃'; score: {left: -0.8462,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: tʰv̩sokv̩poɳɯʈʰææ̃
+	MERGE_1: (1016.78s,1016.98s); 'mv̩'; score: {left: -0.5556,right: -1000.0000,left-merge: -0.5385,right-merge: -10000.0000,}}; left_content: dʑokv̩tsɯmv̩
+	MERGE_1: (1014.86s,1015.41s); 'æʂædʑo'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.0769,right-merge: -10000.0000,}}; left_content: pizoæʂædʑo
+	MERGE_1: (1013.28s,1013.73s); 'ɖɯkv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1667,right-merge: -10000.0000,}}; left_content: ʂebiɖɯkv̩
+	MERGE_1: (1009.40s,1009.70s); 'mv̩'; score: {left: -0.6364,right: -1000.0000,left-merge: -0.6000,right-merge: -10000.0000,}}; left_content: dʑokv̩pitsɯmv̩
+	MERGE_1: (1007.39s,1007.69s); 'zono'; score: {left: -0.7500,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: tʰiʑizozono
+	MERGE_1: (1002.40s,1002.87s); 'tʰikʰɯ'; score: {left: -0.7778,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: dʑɯtʰikʰɯ
+	MERGE_1: (998.47s,998.95s); 'tʰiʈɯ'; score: {left: -0.4286,right: -1000.0000,left-merge: -0.2308,right-merge: -10000.0000,}}; left_content: tʰv̩nɑtʰiʈɯ
+	MERGE_1: (996.78s,997.15s); 'ɖɯv̩ɳɯ'; score: {left: -0.6000,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: jokʰv̩hĩɖɯv̩ɳɯ
+	MERGE_1: (994.55s,994.77s); 'tʰi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2500,right-merge: -10000.0000,}}; left_content: dʑotʰi
+	MERGE_1: (993.02s,993.22s); 'əgi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: mɤdʑoəgi
+	MERGE_1: (989.20s,989.81s); 'ʂekʰɯ'; score: {left: -0.7143,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: tʰiʂekʰɯ
+	MERGE_1: (985.73s,986.03s); 'tʰi'; score: {left: -0.6364,right: -1000.0000,left-merge: -0.6250,right-merge: -10000.0000,}}; left_content: õtʰv̩sodʑotʰi
+	MERGE_1: (982.64s,983.03s); 'hĩɻæ'; score: {left: -0.7143,right: -1000.0000,left-merge: -0.0909,right-merge: -10000.0000,}}; left_content: pizohĩɻæ
+	MERGE_1: (979.16s,979.50s); 'hĩɻæ'; score: {left: -0.7500,right: -1000.0000,left-merge: -0.3750,right-merge: -10000.0000,}}; left_content: ʈʂʰɯɻ̍sehĩɻæ
+	MERGE_1: (976.96s,977.31s); 'kv̩mæ'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ʈʂɤkv̩mæ
+	MERGE_1: (974.54s,975.10s); 'tsotso'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: æbv̩tsotso
+	MERGE_1: (971.88s,972.26s); 'hĩɻæ'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.3750,right-merge: -10000.0000,}}; left_content: ʝikʰv̩dʑohĩɻæ
+	MERGE_1: (970.49s,970.70s); 'dʑo'; score: {left: -0.5000,right: -1000.0000,left-merge: -0.4000,right-merge: -10000.0000,}}; left_content: ʑimiqodʑo
+	MERGE_1: (968.39s,968.84s); 'ɑʁo'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2500,right-merge: -10000.0000,}}; left_content: tʰiɑʁo
+	MERGE_1: (965.75s,966.27s); 'letsʰi'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.2000,right-merge: -10000.0000,}}; left_content: ʑiqʰwɤletsʰi
+	MERGE_1: (963.88s,964.88s); 'ledɑlepotsʰɯ'; score: {left: -0.7647,right: -1000.0000,left-merge: 0.1429,right-merge: -10000.0000,}}; left_content: qædoledɑlepotsʰɯ
+	MERGE_1: (962.26s,962.91s); 'mɤtsɤɲimæ'; score: {left: -0.8462,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ʐwɤlɑmɤtsɤɲimæ
+	MERGE_1: (960.78s,961.40s); 'mɤtsɤɲimæ'; score: {left: -0.8462,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ʐwɤlɑmɤtsɤɲimæ
+	MERGE_1: (955.95s,956.39s); 'dʑokv̩'; score: {left: -0.8000,right: -1000.0000,left-merge: -0.0769,right-merge: -10000.0000,}}; left_content: ətsodʑokv̩
+	MERGE_1: (953.85s,954.13s); 'ʝikv̩'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1667,right-merge: -10000.0000,}}; left_content: qʰɑneʝikv̩
+	MERGE_1: (952.72s,952.92s); 'dʑo'; score: {left: -0.5000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: dɑdʑo
+	MERGE_1: (950.11s,950.42s); 'dʑoɲi'; score: {left: -0.8000,right: -1000.0000,left-merge: -0.4118,right-merge: -10000.0000,}}; left_content: ɖɯtʰoɖɯtʰodʑoɲi
+	MERGE_1: (948.51s,948.96s); 'hĩʈʂʰɯ'; score: {left: -0.7778,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: pidʑohĩʈʂʰɯ
+	MERGE_1: (945.34s,945.74s); 'mɤɲi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.2727,right-merge: -10000.0000,}}; left_content: ətsomɤɲi
+	MERGE_1: (943.92s,944.41s); 'dʑoɲimæ'; score: {left: -0.8182,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ɖɯlodʑoɲimæ
+	MERGE_1: (942.85s,943.30s); 'dzidʑo'; score: {left: -0.6667,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: ʑiqʰwɤʂɯqodzidʑo
+	MERGE_1: (941.43s,941.62s); 'pi'; score: {left: -0.6000,right: -1000.0000,left-merge: -0.5000,right-merge: -10000.0000,}}; left_content: dziɲipi
+	MERGE_1: (940.39s,940.59s); 'wɤ'; score: {left: -0.8824,right: -0.7143,left-merge: -0.8095,right-merge: -0.7143,}}; left_content: dʑɤtsʰohĩʈʂʰɯdʑowɤ
+	MERGE_1: (938.72s,938.97s); 'pi'; score: {left: -0.3333,right: -1000.0000,left-merge: -0.2000,right-merge: -10000.0000,}}; left_content: ɲipi
+	MERGE_1: (936.28s,936.68s); 'hæ̃qʰv̩'; score: {left: -0.3333,right: -1000.0000,left-merge: -0.1250,right-merge: -10000.0000,}}; left_content: mv̩kʰv̩hæ̃qʰv̩
+	MERGE_1: (933.34s,933.73s); 'əʝiʂɯʝi'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.3333,right-merge: -10000.0000,}}; left_content: dʑɤtsʰokv̩əʝiʂɯʝi
+	MERGE_1: (926.64s,927.26s); 'ʑiqʰwɤʈʂʰɯqo'; score: {left: -0.7500,right: -1000.0000,left-merge: 0.3333,right-merge: -10000.0000,}}; left_content: wɤʑiqʰwɤʈʂʰɯqo
+	MERGE_1: (923.17s,923.64s); 'ʝikv̩mæ'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1250,right-merge: -10000.0000,}}; left_content: ʈʂʰɯneʝikv̩mæ
+	MERGE_1: (921.43s,921.69s); 'pizo'; score: {left: -1.0000,right: -1000.0000,left-merge: -0.1111,right-merge: -10000.0000,}}; left_content: dʑɤpizo
+	MERGE_1: (917.77s,918.89s); 'tsɤze'; score: {left: -0.4286,right: -1000.0000,left-merge: -0.0909,right-merge: -10000.0000,}}; left_content: gɤsetsɤze
+	MERGE_1: (915.07s,916.15s); 'tsʰizo'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.1429,right-merge: -10000.0000,}}; left_content: dʑɤhĩtsʰizo
+	MERGE_1: (912.75s,913.66s); 'hɤɲi'; score: {left: -0.7778,right: -1000.0000,left-merge: -0.4286,right-merge: -10000.0000,}}; left_content: ʈʂʰɯneʝihɤɲi
+	MERGE_1: (908.82s,909.13s); 'tʰv̩so'; score: {left: -0.6364,right: -1000.0000,left-merge: -0.2941,right-merge: -10000.0000,}}; left_content: pojokv̩mætʰv̩so
+	MERGE_1: (906.49s,907.08s); 'leɻwæ'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: hĩleɻwæ
+	MERGE_1: (904.79s,905.29s); 'dʑɤho'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ɖwædʑɤho
+	MERGE_1: (903.11s,903.58s); 'dziɲize'; score: {left: -1.0000,right: -1000.0000,left-merge: 0.0000,right-merge: -10000.0000,}}; left_content: ʂɯqodziɲize
+	MERGE_1: (643.96s,644.25s); 'tʰi'; score: {left: 0.5385,right: -0.3333,left-merge: 0.3333,right-merge: 0.3333,}}; right_content: tʰigv̩
+	MERGE_1: (460.82s,461.34s); 'tʰi'; score: {left: 0.1429,right: -0.3333,left-merge: 0.0000,right-merge: 0.3333,}}; right_content: tʰitsi
+	MERGE_1: (450.49s,450.74s); 'ʈʰæ'; score: {left: 0.4000,right: -0.5000,left-merge: 0.1667,right-merge: 0.2500,}}; right_content: ʈʰæɳɯ
+	MERGE_1: (219.18s,220.08s); 'tʰitɕɯ'; score: {left: 0.1429,right: -0.1579,left-merge: -0.2727,right-merge: 0.4737,}}; right_content: tʰitɕɯkwɤtɕɯlɑ
+	MERGE_2: (1099.49s,1099.72s); 'ʰæ'; score: {left: -0.2000,right: -1000.0000,left-merge: 0.2000,right-merge: -10000.0000,}}; left_content: pimv̩ʈʰæ

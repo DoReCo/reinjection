@@ -1,0 +1,28 @@
+
+#### 01.11.2022
+#
+# 1. call 'cutFile.py' with 'act = "00_source"'
+#    This will cut all files for all languages
+#    (Make sure time codes are right in 'd_lang')
+# 2. Manually remove the "_x" suffixes for split&merge / reinject ops.
+#    (Move to 'input' or any other folder for 'master.py', etc.)
+# 3. split&Merge and reinject
+# 4. Manually re-establish the "_x" suffixes on the EAF output
+#    (Move back to '20_reinj' or any other folder for 'cutFiles.py', etc.)
+# 5. call 'cutFile.py' with 'act = "20_reinj"'
+#    (assuming you put the EAF output in '20_reinj')
+##
+
+
+Cashinahua -- "MB_Autobiography"
+	cut1
+	- EAF: "Reference" -- "352"
+Sanzhi -- "Sanzhi_09_08_2012_RMDF_001"
+	cut1
+	- EAF: "ft-ru" -- "в 1941-42? в этот год я родилась. мама постоянно болела, как я сейчас. работать не могла, на поля ходила."
+Yali -- "interview_IP_Ware"
+	cut1
+	- EAF: "id@Ware" -- "interview_IP_Ware 0785"
+	- TGD: 1034.869
+	cut2
+	- EAF: "id@Ware" -- "interview_IP_Ware 1199"

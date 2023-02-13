@@ -727,6 +727,11 @@ def setupFixWIP():
     return (cleanProps,noOldWD,fixZero,renameMC,fixRefind)
 def fixSingleWIP(root,files):
     cleanProps,noOldWD,fixZero,renameMC,fixRefind = setupFixWIP()
+    def fillEmpty(trans):
+        for tier in trans:
+            for seg in tier:
+                if not seg.content:
+                    seg.content = "****"
     for fi,ext,file,path in iterSingle(root,files):
         if not ext.lower() == ".eaf":
             continue
@@ -737,6 +742,7 @@ def fixSingleWIP(root,files):
         alsoGaps(trans)                     # Fill gaps everywhere
         fixRefind(trans)                    # more refind
         renameMC(trans)                     # refind and insref
+        fillEmpty(trans)                    # put fillers in empty segs
         npath = os.path.join(root,file)
         toElan.toElan(npath,trans)
         npath = os.path.join(root,fi+".TextGrid")

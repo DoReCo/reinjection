@@ -74,8 +74,14 @@ def fixMC(trans):
 def fixSort(trans):
     for tier in trans:
         tier.sortByTime()   
+def checkLims(ptier,l_allChild,seg):
+    for cseg in seg.allChildren():
+        if cseg.end > seg.end:
+            cseg.end = seg.end
 def goshDarnPauses(trans):
     for tier in trans.getTop():
+        for seg in tier:
+            checkLims(tier,tier.allChildren(),seg)
         l_allChild = tier.allChildren()
         for a in range(len(tier)-1,0,-1):
             seg1,seg2 = tier.elem[a-1],tier.elem[a]
@@ -95,13 +101,16 @@ def goshDarnPauses(trans):
                 cnseg = ctier.create(cseg.index()+1,"",
                                      nseg.start,nseg.end,"<p:>")
                 cnseg.setParent(nseg)
-                cseg.end = cnseg.start
+                if cseg.end > cnseg.start:
+                    cseg.end = cnseg.start
     trans.renameSegs()
 def alsoGaps(trans):
     
         def gapPar(tier,l_segs=[],start=-1.,end=-1.):
             if tier.name.startswith("ph@"):
                 return []
+            if tier.name == "mb@Kris" and start == 240.965:
+                print(l_segs[0].content,l_segs[0].start,l_segs[0].end)
             if not l_segs:
                 l_segs = tier.elem
             l_res,s0,s1 = [],l_segs[0],l_segs[-1]
@@ -770,11 +779,13 @@ def fixWIP(indir="",outdir=""):
             npath = os.path.join(ndir,fi+".TextGrid")
             toPraat.toPraat(npath,trans)
 def fixPauses(trans):
+    
     for tier in trans.getTop():
         l_allChild = tier.allChildren()
         for a in range(len(tier)-1,-1,-1):
             seg = tier.elem[a]
             if not "<p:>" in seg.content:
+                checkLims(tier,l_allChild,seg)
                 continue
             for ctier in l_allChild:
                 cseg = ctier.getTime(seg.start)

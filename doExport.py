@@ -109,8 +109,6 @@ def alsoGaps(trans):
         def gapPar(tier,l_segs=[],start=-1.,end=-1.):
             if tier.name.startswith("ph@"):
                 return []
-            if tier.name == "mb@Kris" and start == 240.965:
-                print(l_segs[0].content,l_segs[0].start,l_segs[0].end)
             if not l_segs:
                 l_segs = tier.elem
             l_res,s0,s1 = [],l_segs[0],l_segs[-1]

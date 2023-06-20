@@ -55,6 +55,12 @@ def getGlot(p=""):
             d_glot[name] = code
     return d_glot
 
+def cleanNegs(trans):
+    for tier in trans:
+        for a in range(len(tier)-1,-1,-1):
+            if tier.elem[a].start < 0. or tier.elem[a].end < 0.:
+                tier.allPop(a)
+
 def chTr(trans):
     for tier in trans:
         for seg in tier:
@@ -436,6 +442,7 @@ def wipSingleAlign(root,files,g2p="g2p_sample_CV.xlsx",tol=0.0):
                     mid = seg.start+((seg.end-seg.start)/2)
                     seg.setParent(ptier.getTime(mid,ptier))
         npath = os.path.join(root,file)
+        cleanNegs(trans)
         toElan.toElan(npath,trans)
         npath = os.path.join(root,fi+".TextGrid")
         toPraat.toPraat(npath,trans)
@@ -615,7 +622,7 @@ def rn(tr):
             for seg in tier:
                 if "<" in seg.content:
                     continue
-                seg.content = "{:04d}_DoReCo_{}".format(incr,tr.name)
+                seg.content = "{:04d}_{}".format(incr,tr.name)
                 incr += 1
     if 'elan' in tr.metadata:
         if 'MEDIA_DESCRIPTOR' in tr.metadata['elan']:
@@ -793,7 +800,8 @@ def fixPauses(trans):
                 continue
             for ctier in l_allChild:
                 cseg = ctier.getTime(seg.start)
-                if not cseg or "<p:>" in cseg.content:
+                if (not cseg or cseg.start == cseg.end 
+                    or "<p:>" in cseg.content):
                     continue
                 nseg = ctier.create(cseg.index()+1,"",seg.start,seg.end,"<p:>")
                 nseg.setParent(seg)

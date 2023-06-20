@@ -1,4 +1,4 @@
-from corflow import fromPraat,fromElan,toPraat
+from corflow import fromPraat,fromElan,toPraat,toElan
 import reinject
 from reinj_code import wordAlign
 from Bio import pairwise2
@@ -439,7 +439,7 @@ def splitnMerge(eaf,tgd,d_tiers,d_g2p=None,op=""):
         if not op or op=="split":
             ll_info = toStrings(l_tiers)                    # turn to strings
             l_align = pairStr(ll_info[0][0], ll_info[1][0]) # Bio.pairwise2
-            d_split = reassociate(ll_info,l_align)   # Find segs'
+            d_split = reassociate(ll_info,l_align)          # Find segs'
             timeToSplit(tgd,d_g2p,spk,l_tiers[1],d_split)   # Split them
             reparent(tgd)
             ll_info.clear(); l_align.clear(); d_split.clear()
@@ -469,6 +469,8 @@ def main(idir=idir,odir=odir,d_vals={},log_path=""):
             log("\tNo TextGrid found.\n",glog_path); continue
         getIStuff(I)                                     # core,lang,etc.
         wdAlign(I)                                       # word alignment
+        npath = os.path.join(odir,fi+".eaf")
+        toElan.toElan(npath,I.d['eaf'])
         end = time.time()-start
         log("\twdAlign: {:.4f}s\n".format(end),glog_path)
         print(fi,I.d['lang'])

@@ -173,11 +173,19 @@ def _fixBounds(I,trans=None,abs_tol=0.05):
             if l_pos[a] >= 0:
                 return True
         return False
-    def incr_pos(pos,max):
+    def incr_pos(pos,n_max):
         pos = pos+1
-        if pos >= max:
+        if pos >= n_max:
             pos = -1
         return pos
+    def check_prev(nseg):
+        prev_seg = nseg.index()-1
+        if prev_seg >= 0:
+            prev_seg = nseg.struct.elem[prev_seg]
+            if (prev_seg.end > nseg.start or 
+                 math.isclose(prev_seg.end,nseg.start,
+                                  abs_tol=abs_tol)):
+                prev_seg.end = nseg.start
         # Universal alignment fix
     l_pos = []; l_max = []; otime = -1.
     if I and not trans:
@@ -189,7 +197,7 @@ def _fixBounds(I,trans=None,abs_tol=0.05):
     while check_time(l_pos):            # loop
         na,nseg,ntime = -1,None,-1.
         for a in range(len(trans)):
-            pos,max,tier = l_pos[a],l_max[a],trans.elem[a]
+            pos,n_max,tier = l_pos[a],l_max[a],trans.elem[a]
             if pos < 0:                 # no more segments
                 continue
             seg = tier.elem[pos]
@@ -203,15 +211,10 @@ def _fixBounds(I,trans=None,abs_tol=0.05):
             otime = ntime
         elif math.isclose(otime,ntime,abs_tol=abs_tol):
             nseg.start = otime
-            prev_seg = nseg.index()-1
-            if prev_seg >= 0:
-                prev_seg = nseg.struct.elem[prev_seg]
-                if (prev_seg.end > nseg.start or 
-                     math.isclose(prev_seg.end,nseg.start,
-                                      abs_tol=abs_tol)):
-                    prev_seg.end = nseg.start
+            check_prev(nseg)
         else:
             otime = nseg.start
+            check_prev(nseg)
         l_pos[na] = incr_pos(l_pos[na],l_max[na])
     for tier in trans:
         for a in range(len(tier)-1,-1,-1):
@@ -748,7 +751,6 @@ def reinject(l_ops=['corr','merge','add','restruct','word','morph'],
              'morph':aMorph}
     def readOp(I):
         """Iterate over 'l_ops'."""
-        
         for a,op in enumerate(l_ops):
             if op in d_ops:
                 log(I.d['log_path'],"\t "+op+"...\n")

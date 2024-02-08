@@ -2,7 +2,7 @@ from corflow import fromPraat,fromElan,toPraat,toElan
 import reinject
 from reinj_code import wordAlign
 from Bio import pairwise2
-import os,re,time,pandas
+import os,shutil,re,time,pandas
 
     # Paths
 home = os.path.abspath(os.path.dirname(__file__))
@@ -467,10 +467,12 @@ def main(idir=idir,odir=odir,d_vals={},log_path=""):
                             l_path=glog_path)           # TextGrid file
         if not I.d['tgd']:
             log("\tNo TextGrid found.\n",glog_path); continue
-        getIStuff(I)                                     # core,lang,etc.
-        wdAlign(I)                                       # word alignment
+        getIStuff(I)                                    # core,lang,etc.
+        wdAlign(I)                                      # word alignment
         npath = os.path.join(odir,fi+".eaf")
-        toElan.toElan(npath,I.d['eaf'])
+        #I.d['eaf'].renameSegs()                        # old EAF copy
+        #toElan.toElan(npath,I.d['eaf'])
+        shutil.copy(path,npath)                         # copy EAF (raw)
         end = time.time()-start
         log("\twdAlign: {:.4f}s\n".format(end),glog_path)
         print(fi,I.d['lang'])

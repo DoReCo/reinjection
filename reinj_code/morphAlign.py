@@ -256,7 +256,7 @@ def create_morph_phone_id_df(dff):
         OUTPUT: phone-level df with id/content columns for phones/morphemes
         and uncertainty content"""
     def parse_maus_align(string):
-        return [x.split(' ') for x in re.findall("\[(.*?)\]", string)]
+        return [x.split(' ') for x in re.findall(r"\[(.*?)\]", string)]
     # initialize new columns
     col_dict = {k:[] for k in ['phone', 'phone_id', 'morph',# 'morph_samp',
                                'morph_id', 'word', 'word_id', 'maus_align',

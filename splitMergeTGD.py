@@ -470,11 +470,13 @@ def main(idir=idir,odir=odir,d_vals={},log_path=""):
         shutil.copy(path,npath)                         # copy EAF (raw)
         if not I.d['tgd']:
             log("\tNo TextGrid found.\n",glog_path); continue
+        I.d['d_typ'] = reinject.getTYP(I.d['d_core'],I.d['l_ch'])
+        if not 'wd' in I.d['d_typ']:
+            log("\tNo word tier.\n",glog_path); continue
         getIStuff(I)                                    # core,lang,etc.
         wdAlign(I)                                      # word alignment
         end = time.time()-start
         log("\twdAlign: {:.4f}s\n".format(end),glog_path)
-        print(fi,I.d['lang'])
         d_g2p = getG2P(I.d['g2p'],I.d['lang'])
             # Back to the old script
         splitnMerge(I.d['eaf'],I.d['tgd'],I.d['d_core'],d_g2p)

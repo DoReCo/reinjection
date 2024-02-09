@@ -326,6 +326,7 @@ def timeToSplit(tgd,d_g2p,spk,m_tier,d_split):  # everything else
             if not ch:
                 continue
             o_txt,s_txt = toG2P(d_g2p,ntxt)
+            s_txt = s_txt.replace("  "," ") # 09.02.2024 (remove empty spaces)
             i,tph = findTime(d_children[ph_tier],pos,s_txt)
             pos = i+1
             log("\tSPLIT: ({:.02f},{:.02f}); {}; txt: {}, {}; "
@@ -466,6 +467,7 @@ def main(idir=idir,odir=odir,d_vals={},log_path=""):
         I.d['tgd'] = reinject.getTGD(idir,fi,
                             l_path=glog_path)           # TextGrid file
         if not I.d['tgd']:
+            shutil.copy(path,npath)                     # copy EAF (raw)
             log("\tNo TextGrid found.\n",glog_path); continue
         getIStuff(I)                                    # core,lang,etc.
         wdAlign(I)                                      # word alignment

@@ -465,16 +465,13 @@ def main(idir=idir,odir=odir,d_vals={},log_path=""):
             # Deal with 'reinject' stuff
         I.d['eaf'] = reinject.getEAF(idir,file)         # ELAN file
         I.d['tgd'] = reinject.getTGD(idir,fi,
+        npath = os.path.join(odir,fi+".eaf")
+        shutil.copy(path,npath)                         # copy EAF (raw)
                             l_path=glog_path)           # TextGrid file
         if not I.d['tgd']:
-            shutil.copy(path,npath)                     # copy EAF (raw)
             log("\tNo TextGrid found.\n",glog_path); continue
         getIStuff(I)                                    # core,lang,etc.
         wdAlign(I)                                      # word alignment
-        npath = os.path.join(odir,fi+".eaf")
-        #I.d['eaf'].renameSegs()                        # old EAF copy
-        #toElan.toElan(npath,I.d['eaf'])
-        shutil.copy(path,npath)                         # copy EAF (raw)
         end = time.time()-start
         log("\twdAlign: {:.4f}s\n".format(end),glog_path)
         print(fi,I.d['lang'])

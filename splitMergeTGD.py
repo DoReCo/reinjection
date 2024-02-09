@@ -80,6 +80,7 @@ def getSpk(eaf,tgd,d_tiers):    # Sort tiers by speaker (EAF and TGD)
             d_spk[rn] = [wd,tier]
     return d_spk
 def getIStuff(I):
+    ch_wd = False
     I.d['d_core'],I.d['d_else'],I.d['lang'] = reinject.getSPK(
                                                      I.d['d_tiers'],
                                                      I.d['eaf'],
@@ -89,8 +90,13 @@ def getIStuff(I):
     elif I.d['eaf'].checkMeta('lang'):
         I.d['lang'] = I.d['eaf'].meta('lang')
     I = reinject.mergeTGD(I,edit=False)
+    I.d['d_typ'] = reinject.getTYP(I.d['d_core'],I.d['l_ch'])
+    for spk,d_typ in I.d['d_typ'].items():
+        if d_typ['wd'] != None:
+            ch_wd = True
     I = reinject.addTiers(I)
     I.d['d_typ'] = reinject.getTYP(I.d['d_core'],I.d['l_ch'])
+    return ch_wd
 def wdAlign(I):
     I.d['d_typ'] = reinject.getNewTYP(I)
     I.d['output'] = {}
@@ -470,10 +476,9 @@ def main(idir=idir,odir=odir,d_vals={},log_path=""):
         shutil.copy(path,npath)                         # copy EAF (raw)
         if not I.d['tgd']:
             log("\tNo TextGrid found.\n",glog_path); continue
-        I.d['d_typ'] = reinject.getTYP(I.d['d_core'],I.d['l_ch'])
-        if not 'wd' in I.d['d_typ']:
+        ch_wd = getIStuff(I)                            # core,lang,etc.
+        if not ch_wd:
             log("\tNo word tier.\n",glog_path); continue
-        getIStuff(I)                                    # core,lang,etc.
         wdAlign(I)                                      # word alignment
         end = time.time()-start
         log("\twdAlign: {:.4f}s\n".format(end),glog_path)

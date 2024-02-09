@@ -465,9 +465,9 @@ def main(idir=idir,odir=odir,d_vals={},log_path=""):
             # Deal with 'reinject' stuff
         I.d['eaf'] = reinject.getEAF(idir,file)         # ELAN file
         I.d['tgd'] = reinject.getTGD(idir,fi,
+                            l_path=glog_path)           # TextGrid file
         npath = os.path.join(odir,fi+".eaf")
         shutil.copy(path,npath)                         # copy EAF (raw)
-                            l_path=glog_path)           # TextGrid file
         if not I.d['tgd']:
             log("\tNo TextGrid found.\n",glog_path); continue
         getIStuff(I)                                    # core,lang,etc.

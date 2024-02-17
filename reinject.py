@@ -180,11 +180,12 @@ def _fixBounds(I,trans=None,abs_tol=0.05):
         return pos
     def check_prev(nseg):
         prev_seg = nseg.index()-1
-        if prev_seg >= 0:
-            prev_seg = nseg.struct.elem[prev_seg]
-            if (prev_seg.end > nseg.start or 
-                 math.isclose(prev_seg.end,nseg.start,
-                                  abs_tol=abs_tol)):
+        if prev_seg < 0:
+            return
+        prev_seg = nseg.struct.elem[prev_seg]
+        if (prev_seg.end > nseg.start or 
+             math.isclose(prev_seg.end,nseg.start,
+                              abs_tol=abs_tol)):
                 prev_seg.end = nseg.start
         # Universal alignment fix
     l_pos = []; l_max = []; otime = -1.
@@ -194,6 +195,19 @@ def _fixBounds(I,trans=None,abs_tol=0.05):
         l_pos.append(0); l_max.append(len(tier))
         if l_max[-1] == 0:
             l_pos[-1] = -1
+    
+    for tier in I.d['eaf']: ####DEBUG
+        if not tier.name == "B_morph-variantTypes-en":
+            continue
+        ptier = tier.parent()
+        print("AVANT:",tier.name,ptier.name)
+        for seg in tier:
+            if seg.start > 330. and seg.start < 340.:
+                pseg = seg.parent()
+                print("\t",seg.start,seg.end,seg.content,
+                      "|",pseg.start,pseg.end,pseg.content,
+                      "|",pseg.start==seg.start,pseg.end==seg.end)
+    
     while check_time(l_pos):            # loop
         na,nseg,ntime = -1,None,-1.
         for a in range(len(trans)):
@@ -216,6 +230,19 @@ def _fixBounds(I,trans=None,abs_tol=0.05):
             otime = nseg.start
             check_prev(nseg)
         l_pos[na] = incr_pos(l_pos[na],l_max[na])
+    
+    for tier in I.d['eaf']: ####DEBUG
+        if not tier.name == "B_morph-variantTypes-en":
+            continue
+        ptier = tier.parent()
+        print("APRES:",tier.name,ptier.name)
+        for seg in tier:
+            if seg.start > 330. and seg.start < 340.:
+                pseg = seg.parent()
+                print("\t",seg.start,seg.end,seg.content,
+                      "|",pseg.start,pseg.end,pseg.content,
+                      "|",pseg.start==seg.start,pseg.end==seg.end)
+    
     for tier in trans:
         for a in range(len(tier)-1,-1,-1):
             seg = tier.elem[a]
@@ -453,7 +480,9 @@ def corrInput(I):
                 O.d['d_core'][spk].pop(tier)
     
         # Universal boundaries alignment
-    _fixBounds(I)
+    # _fixBounds(I)
+    I.d['eaf'].fixBounds(abs_tol=0.05)
+    
         # A dictionary per correction, with a key per language...
     lang = I.d['lang'].lower()
     d_spk = {'goemai':spkGoemai,

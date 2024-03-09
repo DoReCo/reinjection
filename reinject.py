@@ -166,88 +166,6 @@ def getEAF(dir,name):
     for tier in trans:
         tier.sortByTime()
     return trans
-def _fixBounds(I,trans=None,abs_tol=0.05):
-    """Aligns close bounds within a certain tolerances."""
-    def check_time(l_pos):
-        for a in range(len(l_pos)):
-            if l_pos[a] >= 0:
-                return True
-        return False
-    def incr_pos(pos,n_max):
-        pos = pos+1
-        if pos >= n_max:
-            pos = -1
-        return pos
-    def check_prev(nseg):
-        prev_seg = nseg.index()-1
-        if prev_seg < 0:
-            return
-        prev_seg = nseg.struct.elem[prev_seg]
-        if (prev_seg.end > nseg.start or 
-             math.isclose(prev_seg.end,nseg.start,
-                              abs_tol=abs_tol)):
-                prev_seg.end = nseg.start
-        # Universal alignment fix
-    l_pos = []; l_max = []; otime = -1.
-    if I and not trans:
-        trans = I.d['eaf']
-    for tier in trans:                  # setup
-        l_pos.append(0); l_max.append(len(tier))
-        if l_max[-1] == 0:
-            l_pos[-1] = -1
-    
-    for tier in I.d['eaf']: ####DEBUG
-        if not tier.name == "B_morph-variantTypes-en":
-            continue
-        ptier = tier.parent()
-        print("AVANT:",tier.name,ptier.name)
-        for seg in tier:
-            if seg.start > 330. and seg.start < 340.:
-                pseg = seg.parent()
-                print("\t",seg.start,seg.end,seg.content,
-                      "|",pseg.start,pseg.end,pseg.content,
-                      "|",pseg.start==seg.start,pseg.end==seg.end)
-    
-    while check_time(l_pos):            # loop
-        na,nseg,ntime = -1,None,-1.
-        for a in range(len(trans)):
-            pos,n_max,tier = l_pos[a],l_max[a],trans.elem[a]
-            if pos < 0:                 # no more segments
-                continue
-            seg = tier.elem[pos]
-            if not nseg:                # startup
-                na,nseg,ntime = a,seg,seg.start
-            elif seg.start < ntime:     # best time
-                na,nseg,ntime = a,seg,seg.start
-        if not nseg:                    # all tiers exhausted
-            break
-        if not otime:                   # startup
-            otime = ntime
-        elif math.isclose(otime,ntime,abs_tol=abs_tol):
-            nseg.start = otime
-            check_prev(nseg)
-        else:
-            otime = nseg.start
-            check_prev(nseg)
-        l_pos[na] = incr_pos(l_pos[na],l_max[na])
-    
-    for tier in I.d['eaf']: ####DEBUG
-        if not tier.name == "B_morph-variantTypes-en":
-            continue
-        ptier = tier.parent()
-        print("APRES:",tier.name,ptier.name)
-        for seg in tier:
-            if seg.start > 330. and seg.start < 340.:
-                pseg = seg.parent()
-                print("\t",seg.start,seg.end,seg.content,
-                      "|",pseg.start,pseg.end,pseg.content,
-                      "|",pseg.start==seg.start,pseg.end==seg.end)
-    
-    for tier in trans:
-        for a in range(len(tier)-1,-1,-1):
-            seg = tier.elem[a]
-            if seg.start == seg.end:
-                tier.elem.pop(a)
 def exportEAF(trans,dir,name):
     """Writes an ELAN file."""
     
@@ -480,8 +398,12 @@ def corrInput(I):
                 O.d['d_core'][spk].pop(tier)
     
         # Universal boundaries alignment
-    # _fixBounds(I)
-    I.d['eaf'].fixBounds(abs_tol=0.05)
+    at = -1.
+    for tier in I.d['eaf']:
+        for seg in tier:
+            if at < 0. or seg.end-seg.start < at:
+                at = seg.end-seg.start
+    I.d['eaf'].fixBounds(abs_tol=(at-0.001))
     
         # A dictionary per correction, with a key per language...
     lang = I.d['lang'].lower()
